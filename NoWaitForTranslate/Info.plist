@@ -46,5 +46,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Please allow the recognization of the speech for easy use of application</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We will use your microphone data for the translation</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/Georama-SemiBold.ttf</string>
+		<string>Fonts/Georama-Medium.ttf</string>
+		<string>Fonts/Georama-Regular.ttf</string>
+		<string>Fonts/RacingSansOne-Regular.ttf</string>
+	</array>
 </dict>
 </plist>

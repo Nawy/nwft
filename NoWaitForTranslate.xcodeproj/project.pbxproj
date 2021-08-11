@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,24 @@
 		AC08C13626B5AAD9002A8240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08C13526B5AAD9002A8240 /* Preview Assets.xcassets */; };
 		AC08C14126B5AADA002A8240 /* NoWaitForTranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C14026B5AADA002A8240 /* NoWaitForTranslateTests.swift */; };
 		AC08C14C26B5AADA002A8240 /* NoWaitForTranslateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C14B26B5AADA002A8240 /* NoWaitForTranslateUITests.swift */; };
+		AC08C15B26B5AB39002A8240 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AC08C15A26B5AB39002A8240 /* Realm */; };
+		AC08C15D26B5AB39002A8240 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC08C15C26B5AB39002A8240 /* RealmSwift */; };
+		AC08C15F26B97CA3002A8240 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = AC08C15E26B97CA2002A8240 /* Fonts */; };
+		AC08C16126B98CBC002A8240 /* DictionaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C16026B98CBC002A8240 /* DictionaryRowView.swift */; };
+		AC08C16326B98CEB002A8240 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C16226B98CEB002A8240 /* Style.swift */; };
+		AC08C16626B9B3C4002A8240 /* EditDictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C16526B9B3C4002A8240 /* EditDictionaryView.swift */; };
+		AC08C16A26BAC9BB002A8240 /* DictionaryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C16926BAC9BB002A8240 /* DictionaryItem.swift */; };
+		AC08C16C26BACD39002A8240 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C16B26BACD39002A8240 /* Languages.swift */; };
+		AC08C17126BAD8B3002A8240 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C17026BAD8B3002A8240 /* ButtonStyles.swift */; };
+		AC08C17326BAD91D002A8240 /* DictionariesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C17226BAD91D002A8240 /* DictionariesListView.swift */; };
+		AC2C2A6D26BF2FF600660614 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C2A6C26BF2FF600660614 /* ReadView.swift */; };
+		AC2C2A6F26C14E9400660614 /* ListenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C2A6E26C14E9400660614 /* ListenService.swift */; };
+		AC2C2A7126C2C61400660614 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C2A7026C2C61400660614 /* TestView.swift */; };
+		AC2C2A7326C32FBE00660614 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C2A7226C32FBD00660614 /* SpeechService.swift */; };
+		AC9945B926BD82B700EBD6E1 /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9945B826BD82B600EBD6E1 /* DictionaryView.swift */; };
+		AC9945BC26BDDD5500EBD6E1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9945BB26BDDD5400EBD6E1 /* DataService.swift */; };
+		AC9945BE26BDDD9E00EBD6E1 /* WordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9945BD26BDDD9E00EBD6E1 /* WordItem.swift */; };
+		AC9945C026BE790400EBD6E1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9945BF26BE790300EBD6E1 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +63,22 @@
 		AC08C14726B5AADA002A8240 /* NoWaitForTranslateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoWaitForTranslateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC08C14B26B5AADA002A8240 /* NoWaitForTranslateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoWaitForTranslateUITests.swift; sourceTree = "<group>"; };
 		AC08C14D26B5AADA002A8240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC08C15E26B97CA2002A8240 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		AC08C16026B98CBC002A8240 /* DictionaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRowView.swift; sourceTree = "<group>"; };
+		AC08C16226B98CEB002A8240 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		AC08C16526B9B3C4002A8240 /* EditDictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDictionaryView.swift; sourceTree = "<group>"; };
+		AC08C16926BAC9BB002A8240 /* DictionaryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryItem.swift; sourceTree = "<group>"; };
+		AC08C16B26BACD39002A8240 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		AC08C17026BAD8B3002A8240 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		AC08C17226BAD91D002A8240 /* DictionariesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionariesListView.swift; sourceTree = "<group>"; };
+		AC2C2A6C26BF2FF600660614 /* ReadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadView.swift; sourceTree = "<group>"; };
+		AC2C2A6E26C14E9400660614 /* ListenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenService.swift; sourceTree = "<group>"; };
+		AC2C2A7026C2C61400660614 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		AC2C2A7226C32FBD00660614 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		AC9945B826BD82B600EBD6E1 /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
+		AC9945BB26BDDD5400EBD6E1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		AC9945BD26BDDD9E00EBD6E1 /* WordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItem.swift; sourceTree = "<group>"; };
+		AC9945BF26BE790300EBD6E1 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC08C15D26B5AB39002A8240 /* RealmSwift in Frameworks */,
+				AC08C15B26B5AB39002A8240 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +131,17 @@
 		AC08C12D26B5AAD6002A8240 /* NoWaitForTranslate */ = {
 			isa = PBXGroup;
 			children = (
+				AC9945BA26BDDD2600EBD6E1 /* Services */,
+				AC08C17426BAE896002A8240 /* Styles */,
+				AC08C16826BAC99C002A8240 /* Models */,
+				AC08C16426B9AC83002A8240 /* Views */,
+				AC08C15E26B97CA2002A8240 /* Fonts */,
 				AC08C12E26B5AAD6002A8240 /* NoWaitForTranslateApp.swift */,
 				AC08C13026B5AAD6002A8240 /* ContentView.swift */,
 				AC08C13226B5AAD9002A8240 /* Assets.xcassets */,
 				AC08C13726B5AAD9002A8240 /* Info.plist */,
 				AC08C13426B5AAD9002A8240 /* Preview Content */,
+				AC9945BF26BE790300EBD6E1 /* Utils.swift */,
 			);
 			path = NoWaitForTranslate;
 			sourceTree = "<group>";
@@ -130,6 +172,48 @@
 			path = NoWaitForTranslateUITests;
 			sourceTree = "<group>";
 		};
+		AC08C16426B9AC83002A8240 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC08C16526B9B3C4002A8240 /* EditDictionaryView.swift */,
+				AC08C16026B98CBC002A8240 /* DictionaryRowView.swift */,
+				AC08C17226BAD91D002A8240 /* DictionariesListView.swift */,
+				AC9945B826BD82B600EBD6E1 /* DictionaryView.swift */,
+				AC2C2A6C26BF2FF600660614 /* ReadView.swift */,
+				AC2C2A7026C2C61400660614 /* TestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC08C16826BAC99C002A8240 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC08C16926BAC9BB002A8240 /* DictionaryItem.swift */,
+				AC08C16B26BACD39002A8240 /* Languages.swift */,
+				AC9945BD26BDDD9E00EBD6E1 /* WordItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC08C17426BAE896002A8240 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				AC08C16226B98CEB002A8240 /* Style.swift */,
+				AC08C17026BAD8B3002A8240 /* ButtonStyles.swift */,
+			);
+			name = Styles;
+			sourceTree = "<group>";
+		};
+		AC9945BA26BDDD2600EBD6E1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC9945BB26BDDD5400EBD6E1 /* DataService.swift */,
+				AC2C2A6E26C14E9400660614 /* ListenService.swift */,
+				AC2C2A7226C32FBD00660614 /* SpeechService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +230,10 @@
 			dependencies = (
 			);
 			name = NoWaitForTranslate;
+			packageProductDependencies = (
+				AC08C15A26B5AB39002A8240 /* Realm */,
+				AC08C15C26B5AB39002A8240 /* RealmSwift */,
+			);
 			productName = NoWaitForTranslate;
 			productReference = AC08C12B26B5AAD6002A8240 /* NoWaitForTranslate.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +305,9 @@
 				Base,
 			);
 			mainGroup = AC08C12226B5AAD6002A8240;
+			packageReferences = (
+				AC08C15926B5AB39002A8240 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = AC08C12C26B5AAD6002A8240 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC08C13626B5AAD9002A8240 /* Preview Assets.xcassets in Resources */,
+				AC08C15F26B97CA3002A8240 /* Fonts in Resources */,
 				AC08C13326B5AAD9002A8240 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +351,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC08C17326BAD91D002A8240 /* DictionariesListView.swift in Sources */,
+				AC08C16A26BAC9BB002A8240 /* DictionaryItem.swift in Sources */,
 				AC08C13126B5AAD6002A8240 /* ContentView.swift in Sources */,
+				AC9945C026BE790400EBD6E1 /* Utils.swift in Sources */,
+				AC2C2A7126C2C61400660614 /* TestView.swift in Sources */,
+				AC9945BC26BDDD5500EBD6E1 /* DataService.swift in Sources */,
 				AC08C12F26B5AAD6002A8240 /* NoWaitForTranslateApp.swift in Sources */,
+				AC08C16C26BACD39002A8240 /* Languages.swift in Sources */,
+				AC2C2A6D26BF2FF600660614 /* ReadView.swift in Sources */,
+				AC08C17126BAD8B3002A8240 /* ButtonStyles.swift in Sources */,
+				AC2C2A7326C32FBE00660614 /* SpeechService.swift in Sources */,
+				AC9945BE26BDDD9E00EBD6E1 /* WordItem.swift in Sources */,
+				AC08C16126B98CBC002A8240 /* DictionaryRowView.swift in Sources */,
+				AC08C16326B98CEB002A8240 /* Style.swift in Sources */,
+				AC9945B926BD82B700EBD6E1 /* DictionaryView.swift in Sources */,
+				AC08C16626B9B3C4002A8240 /* EditDictionaryView.swift in Sources */,
+				AC2C2A6F26C14E9400660614 /* ListenService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +687,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC08C15926B5AB39002A8240 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC08C15A26B5AB39002A8240 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC08C15926B5AB39002A8240 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		AC08C15C26B5AB39002A8240 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC08C15926B5AB39002A8240 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC08C12326B5AAD6002A8240 /* Project object */;
 }
